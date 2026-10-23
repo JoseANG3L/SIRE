@@ -1,0 +1,127 @@
+@-moz-document url-prefix("https://siresoporte.com.mx:62341/SireWBS/Pages/Atencion2Clientes.aspx") {
+#view1 > div.ui-content > div.app-wrapper.app-display-tablet {
+    top: 57px !important;
+    bottom: 0 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex: 1 1 auto !important;
+    height: auto !important;
+    position: absolute !important;
+}
+
+#view1_SeguimientoTickets_echo, #view1_SeguimientoTickets_echo, #view1_Tickets_echo, #view1_SeguimientoTickets_echo {
+    top: 0 !important;
+    left: 0 !important;
+    width: 50% !important;
+    max-width: 50% !important;
+    position: relative !important;
+    overflow: auto !important;
+    padding: 1rem !important;
+}
+
+#view1 > div.app-bar-heading {
+    top: 20px !important;
+}
+
+.app-page-header,
+.app-page-header-fixed,
+.app-page-header-divider,
+.app-page-header-placeholder,
+#view1 > div.ui-content > div.app-vscrollbar {
+    display: none !important;
+}
+
+#view1 > div.ui-content > div.app-wrapper.app-display-tablet > div:nth-child(4) {
+    top: 10px !important;
+    position: absolute;
+    height: 10px !important;
+    overflow: hidden !important;
+}
+
+#view1_SeguimientoTickets_echo > div.app-echo-inner > ul > li.dv-item.app-para-multi > div > h3 {
+    display: none !important;
+}
+
+.rg_view1_Tickets_v_vclientes_f_IDTicket {
+    width: 45px !important;
+    max-width: 45px !important;
+}
+
+.rg_view1_Tickets_v_vclientes_f_DescripcionTicket {
+    width: 250px;
+    max-width: 250px;
+}
+
+.rg_view1_Tickets_v_vclientes_f_ComentariosF {
+    width: 180px !important;
+    max-width: 180px !important;
+}
+
+.app-style-cv-Tickets-vclientes .dv-item, .app-style-cv-Tickets-vclientes .app-field {
+    height: 136px !important;
+    max-height: 136px !important;
+    overflow: hidden;
+}
+
+/* ConfiguraciÃ³n para un contenedor especÃ­fico con clase .scroll-thin */
+.scroll-thin {
+  height: 200px;
+  overflow-y: auto;
+  /* IMPORTANTE: Eliminamos 'thin' y usamos valores especÃ­ficos para navegadores modernos */
+  scrollbar-width: auto; 
+  scrollbar-color: #adb5bd transparent;
+}
+
+/* Chrome, Edge y Safari (.scroll-thin) */
+.scroll-thin::-webkit-scrollbar {
+  width: 2px !important;  /* Reducido a 2px para que sea ultra delgada */
+  height: 2px !important; /* Para scroll horizontal */
+}
+
+.scroll-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: #adb5bd;
+  border-radius: 10px;
+}
+
+.scroll-thin::-webkit-scrollbar-thumb:hover {
+  background: #6c757d;
+}
+
+
+/* ==========================================
+   ConfiguraciÃ³n para TODO EL SITIO (body)
+   ========================================== */
+body {
+  /* Al quitar 'thin', Chrome vuelve a hacer caso a los selectores -webkit de abajo */
+  scrollbar-width: auto !important; 
+}
+
+/* Ancho general de la barra vertical */
+::-webkit-scrollbar {
+  width: 2px; /* Cambiado de 4px a 2px para mÃ¡xima delgadez */
+  height: 2px;
+}
+
+/* Fondo o pista de la barra general */
+::-webkit-scrollbar-track {
+  background: #888;
+  border-radius: 6px;
+}
+
+/* El control deslizante general */
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 6px;
+}
+
+/* Color al pasar el cursor por encima */
+::-webkit-scrollbar-thumb:hover {
+  background: #f1f1f1;
+}
+
+
+}
