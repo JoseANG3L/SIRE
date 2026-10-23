@@ -6,7 +6,7 @@
 @author         Me
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://siresoporte.com.mx:62341/SireWBS/Pages/Atencion2Clientes.aspx") {
+@-moz-document url-prefix("https://siresoporte.com.mx:62341/SireWBS/") {
 #view1 > div.ui-content > div.app-wrapper.app-display-tablet {
     top: 57px !important;
     bottom: 0 !important;
