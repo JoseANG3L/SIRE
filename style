@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name           SIRE Soporte
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
 @-moz-document url-prefix("https://siresoporte.com.mx:62341/SireWBS/Pages/Atencion2Clientes.aspx") {
 #view1 > div.ui-content > div.app-wrapper.app-display-tablet {
     top: 57px !important;
